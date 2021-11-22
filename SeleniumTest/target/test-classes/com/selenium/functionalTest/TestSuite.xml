@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+  <test name="ChromeTest">
+    <classes>
+      <class name="com.selenium.functionalTest.UserInterface"/>
+      <class name="com.selenium.functionalTest.EmptyFieldRegistration"/>
+      <class name="com.selenium.functionalTest.InvalidPrivacyPolicyRegistration"/>
+      <class name="com.selenium.functionalTest.MinPasswordLimitRegistration"/>
+      <class name="com.selenium.functionalTest.ConfirmPasswordWarning"/>
+      <class name="com.selenium.functionalTest.InvalidPhoneNoRegistration"/>
+      <class name="com.selenium.functionalTest.ValidUserRegistration"/>
+      <class name="com.selenium.functionalTest.InvalidLogin"/>
+      <class name="com.selenium.functionalTest.ForgotPassword"/>
+      <class name="com.selenium.functionalTest.Login"/>
+      <class name="com.selenium.functionalTest.UpdateInformation"/>
+      <class name="com.selenium.functionalTest.UserLogout"/>
+      <class name="com.selenium.functionalTest.SearchFunction"/>
+      <class name="com.selenium.functionalTest.SearchFunctionNegative"/>
+      <class name="com.selenium.functionalTest.ContactUsTest"/>
+      <class name="com.selenium.functionalTest.AddToCart"/>
+      <class name="com.selenium.functionalTest.ProductInShoppingCart"/>
+      <class name="com.selenium.functionalTest.UpdateRemoveCart"/>
+      <class name="com.selenium.functionalTest.CartTotalButton"/>
+      <class name="com.selenium.functionalTest.CheckoutProduct"/>
+      <class name="com.selenium.functionalTest.AdminLogin"/>
+      <class name="com.selenium.functionalTest.PrintInvoice"/>
+      <class name="com.selenium.functionalTest.CompleteCustomerOrder"/>
+      <class name="com.selenium.functionalTest.DeleteOrder"/>
+      <class name="com.selenium.functionalTest.DeleteCustomer"/>
+    </classes>
+ 	</test>
+</suite> <!-- Suite -->
