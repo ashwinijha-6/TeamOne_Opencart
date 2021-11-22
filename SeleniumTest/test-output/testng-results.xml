@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16579" started-at="2021-11-22T11:03:01 IST" finished-at="2021-11-22T11:03:18 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16579" started-at="2021-11-22T11:03:01 IST" finished-at="2021-11-22T11:03:18 IST">
+      <class name="com.selenium.pom.PomTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selenium.pom.PomTest@4b1c1ea0]" name="beforeMethod" is-config="true" duration-ms="9754" started-at="2021-11-22T11:03:01 IST" finished-at="2021-11-22T11:03:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="searchAndLogin()[pri:0, instance:com.selenium.pom.PomTest@4b1c1ea0]" name="searchAndLogin" duration-ms="5502" started-at="2021-11-22T11:03:11 IST" finished-at="2021-11-22T11:03:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selenium.pom.PomTest@4b1c1ea0]" name="afterMethod" is-config="true" duration-ms="1268" started-at="2021-11-22T11:03:17 IST" finished-at="2021-11-22T11:03:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.selenium.pom.PomTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

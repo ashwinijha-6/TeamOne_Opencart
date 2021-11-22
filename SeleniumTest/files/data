@@ -1,0 +1,120 @@
+adminBaseURL = http://localhost/opencart/upload/admin/
+
+adminUser = admin
+adminPassword = seltest1
+adminTitle = Dashboard
+adminLoginTitle = Administration
+adminDashboardURL = http://localhost/opencart/upload/admin/index.php?route=common/dashboard&user_token=qcklDqYRDgkhRi8Kk8hVpQtxGYar0sPC
+successMessage = Success
+invoiceTitle = Invoice
+
+
+// register new user
+sampleFirstname = Sample
+sampleLastname = Test
+sampleEmail = sample.test@gmail.com
+samplePhone = 7999753581
+samplePassword = Testpassword24
+sampleConfirmpassword = Testpassword24
+registrationUrl = http://localhost/opencart/upload/index.php?route=account/register
+registrationBaseURL = http://localhost/opencart/upload/index.php?route=account/register
+
+
+registrationBaseURL = http://localhost/opencart/upload/index.php?route=account/register
+sampleFirstname = Sample
+sampleLastname = Test
+sampleEmail = sample.test@gmail.com
+samplePhone = 7999753581
+samplePassword = Testpassword24
+sampleConfirmpassword = Testpassword24
+
+firstName = Rahul
+lastName = Tripathi
+email = rahul.tripathi31@gmail.com
+telephone = 9890876534
+password = rahul1986
+confirmPassword = rahul1986
+wrongTelephone = 98abc567rg
+passwordsMin = awd
+confirmPasswordmin = awd
+email12 = test@test.com
+*****REMEMBER DON'T USE THE SAME EMAIL USED IN ValidUserRegistration FOR REST OF THE TESTCASES**************REPLACE ANY NUMBERED EMAIL EG. 'email11', 'email8' with 'email' in entering email wala section of every Test Case********
+
+
+
+
+baseURL =http://localhost/opencart/upload/
+storePageTitle= Your Store
+myAccountPageTitle= My Account
+logoutPageTitle = Account Logout
+
+// forgot password
+forgotPasswordPageTitle= Forgot Your Password?
+accountLoginPageTitle= Account Login
+verificationMessage= An email with a confirmation link has been sent your email address.
+StorePageTitle= Your Store
+
+// Invalid User Login
+invalidEmailAddress= test123@gmail.com
+invalidPassword= p12334
+accountLoginPageTitle= Account Login
+warningMessage=Warning: No match for E-Mail Address and/or Password.
+
+// add prod
+customerHomeURL = http://localhost/opencart/upload/index.php?route=common/home
+actualMacBookTitle = MacBook
+actualHtc = HTC Touch HD
+actualiMacTitle = iMac
+actualSuccessMessage = Success
+shoppingCartPageTitle = Shopping Cart
+updateMessage = modified
+
+checkoutPageTitle = Checkout
+
+
+
+// Step 2: Billing Details
+checkoutFirstName = Sample
+checkoutLastName = Test
+checkoutCompany = Sample Company
+checkoutAddress1 = Sample Address, Line-1
+checkoutAddress2 = Sample Address, Line-2
+checkoutCity = Pune
+checkoutPostCode = 411002
+
+
+
+//Step 3: Payment Method
+checkoutCommentOrder = Please provide extra packaging for my order
+
+
+
+// Contact Us Enquiry
+contactEnquiryMsg = Payment method not available while checking out, Kindly check & revert as soon as possible.
+
+customerHomeURL = http://localhost/opencart/upload/index.php?route=common/home
+
+
+//data for update information
+updatedFirstName=Sample
+updatedLastName=Test
+updatedEmail=sample.test@gmail.com
+telephone=1234567894
+successMessage=Success: Your account has been successfully updated.
+
+//data for Contact Us
+enquiryText= Order has been delayed and not delivered to the right location
+expectedMessage=Your enquiry has been successfully sent to the store owner!
+
+
+
+//data for Search functionality
+sampleProduct= iphone
+invalidSampleProduct= nokia
+
+// POM/DDT
+pomSearch = imac
+pomEmail = sample.test@gmail.com
+pomPassword = Testpassword24
+
+loginUrl = http://localhost/opencart/upload/index.php?route=account/login
